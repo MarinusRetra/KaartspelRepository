@@ -1,0 +1,5 @@
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\KaartspelRepository\Kaartspel\Kaartspel\obj\Debug\net8.0\Kaartspel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\KaartspelRepository\Kaartspel\Kaartspel\obj\Debug\net8.0\Kaartspel.AssemblyInfoInputs.cache
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\KaartspelRepository\Kaartspel\Kaartspel\obj\Debug\net8.0\Kaartspel.AssemblyInfo.cs
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\KaartspelRepository\Kaartspel\Kaartspel\obj\Debug\net8.0\Kaartspel.csproj.CoreCompileInputs.cache
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\KaartspelRepository\Kaartspel\Kaartspel\obj\Debug\net8.0\Kaartspel.sourcelink.json
