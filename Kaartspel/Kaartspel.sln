@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaartspel", "Kaartspel\Kaartspel.csproj", "{9136635B-98BD-4599-9BBF-E27B87C166FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9136635B-98BD-4599-9BBF-E27B87C166FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9136635B-98BD-4599-9BBF-E27B87C166FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9136635B-98BD-4599-9BBF-E27B87C166FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9136635B-98BD-4599-9BBF-E27B87C166FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {011C9C2E-3F2E-4F13-A5DC-C32D1F591E5B}
+	EndGlobalSection
+EndGlobal
