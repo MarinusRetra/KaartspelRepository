@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kaartspel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46d280d0415876f62c004037d62fe6e48fa55c50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bd829e229fbf6d69c2532b9941086f7c481ca3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kaartspel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kaartspel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
