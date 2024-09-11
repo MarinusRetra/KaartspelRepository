@@ -1,15 +1,18 @@
-﻿using System;
-
+﻿		
+        
 public class GridSlot
 {
 	public Kaart Kaart { get; private set; }
 	public string Art { get; private set; }
 
 	//De kaart is bij default null maar als een kaart op ronde 0 op het bord wil hebben kan ik dat veranderen.
-	public GridSlot(Kaart _kaartIn = null)
+	public GridSlot(Kaart _kaartIn)
 	{
 		Kaart = _kaartIn;
-		Art = Kaart.Art;
+		if (Kaart != null)
+		{
+			Art = Kaart.Art;
+		}
 	}
 	public void AssignCard(Kaart kaartIn)
 	{
@@ -19,22 +22,39 @@ public class GridSlot
 	public void ClearSlot()
 	{ 
 		Kaart = null;
-		// art = artlijst[0]
+		Art = ArtClass.BlankArt;
 	}
-
-	public void MakeBoard()
+	
+    /// <summary>
+	/// maakt een 2x4 grid voor de speelkaarten.
+	/// </summary>
+	public static void MakeBoard()
 	{
-		// maakt een 2x4 grid voor de speelkaarten.
-		GridSlot[,] SpelBord = { { new GridSlot(), new GridSlot(), new GridSlot(), new GridSlot() }
-						     , { new GridSlot(), new GridSlot(), new GridSlot(), new GridSlot() } };
-
-		// gaat door elke gridslot in het spelbord.
-		for (int i = 0; i > 1; i++)
-		{
-			for (int j = 0; j > 3; j++)
-			{
-
-			}
-		}
+        GridSlot[,] SpelBord = { { new GridSlot(new()), new GridSlot(new()), new GridSlot(new()), new GridSlot(new()) }
+                              ,{new GridSlot(new()), new GridSlot(new()), new GridSlot(new()), new GridSlot(new())} };
+		
+		PrintBord(SpelBord);
     }
+	/// <summary>
+	/// gaat door elke gridslot in het spelbord.
+	/// </summary>
+	/// <param name="SpelBord"></param>
+	public static void PrintBord(GridSlot[,] SpelBord)
+	{ 
+		Console.SetCursorPosition(Console.WindowWidth/2, Console.WindowHeight/2);
+		for (int i = 0; i < SpelBord.GetLength(0); i++)
+		{
+			for (int j = 0; j < SpelBord.GetLength(1); j++)
+			{
+				Console.Write(SpelBord[i, j].Art);
+				Console.Write(" ");
+            }
+			int x = Console.GetCursorPosition().Left;
+			int y = Console.GetCursorPosition().Top;
+			Console.WriteLine();
+            Console.WriteLine();
+			Console.SetCursorPosition(x-SpelBord.GetLength(0)*4, y+2);
+			//TODO verander dit later om met de kaart art te scalen
+        }
+	}
 }

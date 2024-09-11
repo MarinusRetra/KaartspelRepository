@@ -23,7 +23,8 @@ en begint het speler deck weer bij 8 kaarten.*/
 internal class Program
 {
     static void Main(string[] args)
-    { 
-        Console.WriteLine("Hello, World!");
+    {
+        GridSlot.MakeBoard();
+        Console.ReadLine();
     }
 }
