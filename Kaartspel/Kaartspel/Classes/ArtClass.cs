@@ -1,4 +1,16 @@
 ﻿public static class ArtClass
 {
-	public static readonly string BlankArt = "+"; 
+	public static readonly string BlankArt =
+@"
++=-=-=-=-=-=-=-=-=-=+
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
++=-=-=-=-=-=-=-=-=-=+";
 }

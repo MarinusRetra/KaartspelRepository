@@ -40,21 +40,27 @@ public class GridSlot
 	/// </summary>
 	/// <param name="SpelBord"></param>
 	public static void PrintBord(GridSlot[,] SpelBord)
-	{ 
-		Console.SetCursorPosition(Console.WindowWidth/2, Console.WindowHeight/2);
+	{
+		//Console.SetCursorPosition(Console.WindowWidth/2, Console.WindowHeight/4);
 		for (int i = 0; i < SpelBord.GetLength(0); i++)
 		{
-			for (int j = 0; j < SpelBord.GetLength(1); j++)
+            for (int j = 0; j < 1; j++)
 			{
-				Console.Write(SpelBord[i, j].Art);
-				Console.Write(" ");
+                PrintKaart(SpelBord[i,j].Art);
             }
 			int x = Console.GetCursorPosition().Left;
 			int y = Console.GetCursorPosition().Top;
-			Console.WriteLine();
-            Console.WriteLine();
-			Console.SetCursorPosition(x-SpelBord.GetLength(0)*4, y+2);
-			//TODO verander dit later om met de kaart art te scalen
+		    Console.SetCursorPosition(x+22,y+1);
         }
+		
+	    static void PrintKaart(string kaartArt)
+		{ 
+			foreach (var line in kaartArt.Split('\n'))
+			{
+			    Console.WriteLine(line);
+			    Console.SetCursorPosition(Console.CursorLeft, Console.CursorTop);
+				//dit reset de cursor positie
+			}
+		}
 	}
 }

@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{9136635B-98BD-4599-9BBF-E27B87C166FD}|Kaartspel\\Kaartspel.csproj|solutionrelative:kaartspel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9136635B-98BD-4599-9BBF-E27B87C166FD}|Kaartspel\\Kaartspel.csproj|c:\\users\\marin\\onedrive\\desktop\\projecten\\c#\\kaartspelrepository\\kaartspel\\kaartspel\\classes\\artclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9136635B-98BD-4599-9BBF-E27B87C166FD}|Kaartspel\\Kaartspel.csproj|solutionrelative:kaartspel\\classes\\artclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9136635B-98BD-4599-9BBF-E27B87C166FD}|Kaartspel\\Kaartspel.csproj|c:\\users\\marin\\onedrive\\desktop\\projecten\\c#\\kaartspelrepository\\kaartspel\\kaartspel\\classes\\kaartclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9136635B-98BD-4599-9BBF-E27B87C166FD}|Kaartspel\\Kaartspel.csproj|solutionrelative:kaartspel\\classes\\kaartclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,34 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SpelbordClass.cs",
-              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\C#\\KaartspelRepository\\Kaartspel\\Kaartspel\\Classes\\SpelbordClass.cs",
-              "RelativeDocumentMoniker": "Kaartspel\\Classes\\SpelbordClass.cs",
-              "ToolTip": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\C#\\KaartspelRepository\\Kaartspel\\Kaartspel\\Classes\\SpelbordClass.cs",
-              "RelativeToolTip": "Kaartspel\\Classes\\SpelbordClass.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T14:46:50.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KaartClass.cs",
-              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\C#\\KaartspelRepository\\Kaartspel\\Kaartspel\\Classes\\KaartClass.cs",
-              "RelativeDocumentMoniker": "Kaartspel\\Classes\\KaartClass.cs",
-              "ToolTip": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\C#\\KaartspelRepository\\Kaartspel\\Kaartspel\\Classes\\KaartClass.cs",
-              "RelativeToolTip": "Kaartspel\\Classes\\KaartClass.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAwwC4AAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T14:51:21.685Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -58,10 +36,49 @@
               "RelativeDocumentMoniker": "Kaartspel\\Program.cs",
               "ToolTip": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\C#\\KaartspelRepository\\Kaartspel\\Kaartspel\\Program.cs",
               "RelativeToolTip": "Kaartspel\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBoAAAAdAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBoAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T14:37:24.274Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArtClass.cs",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\C#\\KaartspelRepository\\Kaartspel\\Kaartspel\\Classes\\ArtClass.cs",
+              "RelativeDocumentMoniker": "Kaartspel\\Classes\\ArtClass.cs",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\C#\\KaartspelRepository\\Kaartspel\\Kaartspel\\Classes\\ArtClass.cs",
+              "RelativeToolTip": "Kaartspel\\Classes\\ArtClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T14:32:19.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpelbordClass.cs",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\C#\\KaartspelRepository\\Kaartspel\\Kaartspel\\Classes\\SpelbordClass.cs",
+              "RelativeDocumentMoniker": "Kaartspel\\Classes\\SpelbordClass.cs",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\C#\\KaartspelRepository\\Kaartspel\\Kaartspel\\Classes\\SpelbordClass.cs",
+              "RelativeToolTip": "Kaartspel\\Classes\\SpelbordClass.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAswD0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T14:46:50.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KaartClass.cs",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\C#\\KaartspelRepository\\Kaartspel\\Kaartspel\\Classes\\KaartClass.cs",
+              "RelativeDocumentMoniker": "Kaartspel\\Classes\\KaartClass.cs",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\C#\\KaartspelRepository\\Kaartspel\\Kaartspel\\Classes\\KaartClass.cs",
+              "RelativeToolTip": "Kaartspel\\Classes\\KaartClass.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwC4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T14:51:21.685Z"
             }
           ]
         }
